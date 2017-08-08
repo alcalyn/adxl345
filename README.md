@@ -78,4 +78,4 @@ axes = adxl345.get_axes(True)
 
 ## License
 
-This project is under [MIT](LICENSE).
+This project is under [MIT](LICENSE) license.
