@@ -7,13 +7,15 @@ def readme():
 
 setup(
     name='adxl345',
-    version='1.0.2',
+    version='1.0.3',
     description='Python module to use ADXL345.',
     long_description=readme(),
     url='https://github.com/alcalyn/adxl345',
     author='Alcalyn',
     author_email='doubjulien@hotmail.fr',
     license='MIT',
-    packages=find_packages('.'),
+    packages=[
+        'adxl345'
+    ],
     zip_safe=False
 )
