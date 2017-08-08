@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name='adxl345',
-    version='1.0.1',
+    version='1.0.2',
     description='Python module to use ADXL345.',
     long_description=readme(),
     url='https://github.com/alcalyn/adxl345',
